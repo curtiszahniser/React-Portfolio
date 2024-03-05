@@ -9,7 +9,7 @@ import './index.css';
 import App from './App';
 import ErrorPage from './pages/ErrorPage';
 import HomePage from './pages/HomePage';
-// import ProfilePage from './pages/ProfilePage';
+import ProjectsPage from './pages/ProjectsPage';
 import AboutPage from './pages/AboutPage';
 
 // Define the accessible routes, and which components respond to which URL
@@ -30,6 +30,10 @@ const router = createBrowserRouter([
       {
         path: 'about',
         element: <AboutPage />,
+      },
+      {
+        path: 'projects',
+        element: <ProjectsPage />,
       },
     ],
   },
